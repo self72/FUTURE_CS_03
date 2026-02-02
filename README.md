@@ -4,56 +4,49 @@
 # 🔐 API Security Risk Analysis Report
 
 This project analyzes security risks in publicly accessible REST APIs using **Postman**.
+🔗 APIs Tested
 
----
+Base URL: https://dummyjson.com
 
-## 🔗 APIs Tested
 
-Base URL:
 
-```
-https://dummyjson.com
-```
+🔐 API Security Risk Analysis Report
+🧰 Tools Used
 
-* `/users`
-* `/products`
-* `/carts`
-* `/recipes`
-* `/comments`
-* `/todos`
+Postman – API request testing and response analysis
 
----
+REST APIs – Target endpoints for security testing
 
-## ⚠️ Key Security Risks
+JSON – Response data format analysis
 
-* No authentication or authorization
-* Sensitive data exposure
-* Missing rate limiting
-* Excessive data exposure
-* No input validation
+🎯 Scope
 
----
+The scope of this analysis includes:
 
-## 📊 Risk Severity
+Testing publicly accessible REST APIs
 
-* **High:** Authentication issues, sensitive data exposure
-* **Medium:** Rate limiting, data overexposure
-* **Low:** Input validation
+Identifying common API security risks
 
----
+Analyzing data exposure and access control issues
 
-## 🛡️ Recommendations
+Providing security improvement recommendations
 
-* Use JWT / OAuth 2.0
-* Mask sensitive fields
-* Apply rate limiting
-* Minimize response data
+Out of Scope:
 
----
+Penetration testing
 
-## 🧰 Tools
+Source code review
 
-* Postman
-* REST API
-* JSON
+Infrastructure-level security testing
 
+🔍 Methodology
+
+Identified target API endpoints
+
+Sent API requests using Postman
+
+Analyzed responses for security issues
+
+Classified risks based on severity
+
+Documented business impact and remediation steps
