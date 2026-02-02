@@ -19,7 +19,9 @@ REST APIs – Target endpoints for security testing
 
 JSON – Response data format analysis
 
+
 🎯 Scope
+
 The scope of this analysis includes:
 
 Testing publicly accessible REST APIs
@@ -36,6 +38,7 @@ Penetration testing
 Source code review
 
 Infrastructure-level security testing
+
 
 🔍 Methodology
 
